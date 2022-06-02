@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{46E2663E-34D9-4225-AE9F-F8762F1E2CB6}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{F18AD9F4-226A-49E4-A78B-9D27EDFBC892}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{1078FD3E-B9BD-4E84-8304-4DC8E4AA4D1C}">
+								<Image FileName="-1913074374" Left="0" Top="0" Right="1621" Bottom="1411" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageGithubGoogle" Key="{BCC1B90F-38E3-429C-B9BF-D61A98C4D5E8}">
+								<Image FileName="92564168" Left="8" Top="112" Right="1613" Bottom="1403" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeGithubWhereTheWorldBuild" Key="{9FB49AF5-C0E6-4A1E-9482-E428DA0A4696}">
+										<Image FileName="196302004" Left="188" Top="315" Right="626" Bottom="346" />
+										<TypeInfo Item0="{9ED03D08-88F3-437F-AAD0-2A493B5C0982}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;GitHub: Where the world builds software · GitHub&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//a/h3[contains(@class, &apos;LC20lb&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;rso&apos;]//div//a/h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//div//a/h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGithubCom" Key="{0434BA40-D56A-45A8-AA0C-396C96410735}">
+								<Image FileName="92564168" Left="8" Top="112" Right="1613" Bottom="1403" />
+								<TypeInfo Item0="{1BE4EA83-E307-4E90-895E-6E1712F9B33C}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://github.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="asideAccount" Key="{59A34C10-842C-4740-8B2E-7CED9D261477}">
+										<Image FileName="1702627144" Left="8" Top="174" Right="358" Bottom="1465" />
+										<Selectors>
+											<Selector>
+												<Value Value="//aside[contains(., &apos;Recent Repositories&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside[@aria-label=&apos;Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/aside[contains(@class, &apos;team-left-column&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/aside" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGitbogus" Key="{A08685D6-3495-41A2-8A99-EF2BA08F34AC}">
+										<Image FileName="1702627144" Left="40" Top="290" Right="325" Bottom="485" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;gitbogus&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside/div/div/div/ul[contains(@class, &apos;list-style-none&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGitbogus2" Key="{99D10685-0D03-4097-BB82-D1B5D928A625}">
+										<Image FileName="1702627144" Left="40" Top="406" Right="325" Bottom="427" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;testcomplete&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkGitbogus" Key="{E569E811-0BA8-46A7-8FEF-239668A3D762}">
+										<Image FileName="1702627144" Left="64" Top="407" Right="205" Bottom="426" />
+										<TypeInfo Item0="{9ED03D08-88F3-437F-AAD0-2A493B5C0982}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;testcomplete&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[5]//a[contains(@class, &apos;color-fg-default&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;repos-container&apos;]//li[5]/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{F18AD9F4-226A-49E4-A78B-9D27EDFBC892}">
+			<Child Name="BrowserWindow" Owner="{1078FD3E-B9BD-4E84-8304-4DC8E4AA4D1C}" />
+			<Child Name="pageGithubGoogle" Owner="{BCC1B90F-38E3-429C-B9BF-D61A98C4D5E8}">
+				<Child Name="textnodeGithubWhereTheWorldBuild" Owner="{9FB49AF5-C0E6-4A1E-9482-E428DA0A4696}" />
+			</Child>
+			<Child Name="pageGithubCom" Owner="{0434BA40-D56A-45A8-AA0C-396C96410735}">
+				<Child Name="asideAccount" Owner="{59A34C10-842C-4740-8B2E-7CED9D261477}">
+					<Child Name="textnodeGitbogus" Owner="{A08685D6-3495-41A2-8A99-EF2BA08F34AC}">
+						<Child Name="textnodeGitbogus2" Owner="{99D10685-0D03-4097-BB82-D1B5D928A625}">
+							<Child Name="linkGitbogus" Owner="{E569E811-0BA8-46A7-8FEF-239668A3D762}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

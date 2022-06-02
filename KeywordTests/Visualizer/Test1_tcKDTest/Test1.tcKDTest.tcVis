@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{C9CC8758-422E-40A1-88E5-1326B2BE78D4}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44714.0588310185" objectName="Aliases.browser.pageGithubGoogle.textnodeGithubWhereTheWorldBuild" objectLeft="188" objectTop="315" objectRight="626" objectBottom="346" clickPointX="538" clickPointY="332" imageFileName="tcvi4692375140126.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44714.0588773148" objectName="Aliases.browser.pageGithubCom.asideAccount.textnodeGitbogus.textnodeGitbogus2.linkGitbogus" objectLeft="64" objectTop="407" objectRight="205" objectBottom="426" clickPointX="142" clickPointY="419" imageFileName="tcvi4695562140127.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
