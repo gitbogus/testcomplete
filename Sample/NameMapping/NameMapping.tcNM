@@ -4708,6 +4708,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="button2" Key="{823035E6-97F2-4F14-A7C2-2362E8819BF3}">
+										<Image FileName="575737530" Left="153" Top="568" Right="185" Bottom="600" />
+										<TypeInfo Item0="{C74E7E86-CC71-47CB-B7F3-B68FEFBC53B4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;edit_btn&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageContentList" Key="{CAB7F458-C3E2-4099-B418-41E851CEC08B}">
@@ -4978,7 +4987,10 @@
 										<Image FileName="-2056381716" Left="28" Top="230" Right="348" Bottom="311" />
 										<Selectors>
 											<Selector>
-												<Value Value="//li[contains(., &apos;다미부찌&apos;)]" />
+												<Value Value="xpath=/html/body/div[1]/div[2]/section/div/ul/li[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;다미부찌&apos;)]" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5138,10 +5150,13 @@
 										<TypeInfo Item0="{471A17CC-6288-43C1-B3B4-E4DAC46743DE}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[2]/section//li[1][contains(@class,&apos;list group2&apos;)]" />
+												<Value Value="//li[contains(., &apos;S&amp;I Corp.곤지암리조트&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//li[contains(., &apos;S&amp;I Corp.곤지암리조트&apos;)]" />
+												<Value Value="xpath=/html/body/div[1]/div[2]/section/div/ul/li[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[2]/section//li[1][contains(@class,&apos;list group2&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5218,7 +5233,10 @@
 										<TypeInfo Item0="{F5388C18-5BFA-462E-A762-F12EB42F496F}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//li[contains(., &apos;티머니 택시-서울34사9725&apos;)]" />
+												<Value Value="xpath=/html/body/div[1]/div[2]/section/div/ul/li[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;티머니 택시-서울34사9725&apos;)]" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5340,6 +5358,9 @@
 										<TypeInfo Item0="{F5388C18-5BFA-462E-A762-F12EB42F496F}" />
 										<Selectors>
 											<Selector>
+												<Value Value="//section//ul/li/a" />
+											</Selector>
+											<Selector>
 												<Value Value="//a[.=&apos;행사품의서_shlim_20220325&apos;]" />
 											</Selector>
 											<Selector>
@@ -5347,9 +5368,6 @@
 											</Selector>
 											<Selector>
 												<Value Value="//ul[@id=&apos;ul_append_searchResult&apos;]//a" />
-											</Selector>
-											<Selector>
-												<Value Value="//section//ul/li/a" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5399,6 +5417,119 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[@id=&apos;content_write&apos;]/form/section//div[@id=&apos;PrForXp&apos;]//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode5" Key="{67BCB4DC-BB7F-42D0-8097-0A0BDF84196E}">
+										<Image FileName="1060038248" Left="28" Top="184" Right="348" Bottom="223" />
+										<TypeInfo Item0="{F5388C18-5BFA-462E-A762-F12EB42F496F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[@id=&apos;ul_append_searchResult&apos;]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;여비교통비(시내)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/div/div/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{ACB51131-CF2F-49DB-A8C7-497FE8453A51}">
+										<Image FileName="-1778488285" Left="28" Top="389" Right="348" Bottom="433" />
+										<TypeInfo Item0="{563742EB-08B2-497C-A25F-F8DB5EC0D215}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;SINGLEX테스트팀&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link3" Key="{A0A21B95-10B1-4B2C-B007-947CE58B879B}">
+										<Image FileName="1388274526" Left="28" Top="193" Right="256" Bottom="215" />
+										<TypeInfo Item0="{F5388C18-5BFA-462E-A762-F12EB42F496F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;[공상평-비용OL-테스트] UAS 온보딩&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul/li/a[contains(@class, &apos;selectedCode&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode202112240069j905000281682" Key="{64A1334F-B502-49D1-ADFB-9F9E9742A930}">
+										<Image FileName="-1383888362" Left="28" Top="230" Right="348" Bottom="311" />
+										<TypeInfo Item0="{F5388C18-5BFA-462E-A762-F12EB42F496F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=/html/body/div[1]/div[2]/section/div/ul/li[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;메가엠지씨커피 마곡역점(MEGA MGC COFFEE)&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{5FD52A34-3D1E-43AA-8CB6-18DB98CC3D92}">
+										<Image FileName="-1736154711" Left="55" Top="262" Right="321" Bottom="312" />
+										<TypeInfo Item0="{471A17CC-6288-43C1-B3B4-E4DAC46743DE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[3]/div/div/div[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[3]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header2" Key="{E229DDFD-4826-466E-A926-B0C2D790FC52}">
+										<Image FileName="-878736012" Left="8" Top="112" Right="368" Bottom="168" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;_메뉴&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/header[contains(@class, &apos;mainheader&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link4" Key="{7E460D0C-6077-47D1-B6A8-04F33288F00F}">
+										<Image FileName="-878736012" Left="16" Top="120" Right="56" Bottom="160" />
+										<TypeInfo Item0="{F5388C18-5BFA-462E-A762-F12EB42F496F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;_메뉴&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;menu_btn&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link5" Key="{0E2A4280-149B-4F38-8FEA-E4F5C99CFD64}">
+										<Image FileName="-133185418" Left="8" Top="297" Right="296" Bottom="337" />
+										<TypeInfo Item0="{F5388C18-5BFA-462E-A762-F12EB42F496F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;요청내역&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;div_main_leftmenu&apos;]//li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5822,6 +5953,38 @@
 											</Selector>
 											<Selector>
 												<Value Value="//a[.=&apos;_메뉴&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerLocaleMessageBack" Key="{F0FB302E-4E62-4F55-9290-9800381B6F30}">
+										<Image FileName="-2106515927" Left="8" Top="112" Right="368" Bottom="168" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;{{_locale_message.BACK}}&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;detail_wrap&apos;]/header[contains(@class, &apos;mainheader&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;detail_wrap&apos;]/header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLocaleMessageBack" Key="{B6F3A47A-5EEE-4E0F-9F8E-47F5ACB114E2}">
+										<Image FileName="-2106515927" Left="16" Top="120" Right="56" Bottom="160" />
+										<TypeInfo Item0="{F5388C18-5BFA-462E-A762-F12EB42F496F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;{{_locale_message.BACK}}&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;back_btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;detail_wrap&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;detail_wrap&apos;]/header/a" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6597,6 +6760,7 @@
 					<Child Name="textnodeUlMainList" Owner="{281C9076-5859-489D-BD52-011BE9E046FF}">
 						<Child Name="textnode202112020069js5962593ts1" Owner="{6CDD649F-30F5-4B51-B45F-9F2D1C846315}">
 							<Child Name="textnode7300" Owner="{C357FC20-D307-4468-98A8-69015626702D}" />
+							<Child Name="button2" Owner="{823035E6-97F2-4F14-A7C2-2362E8819BF3}" />
 						</Child>
 						<Child Name="textnode202112050069jq3317556ts1" Owner="{BCAF00C5-7952-44A6-AD35-7A1EE899F68C}" />
 						<Child Name="textnode202112220069glp530005168" Owner="{25EB254D-A9F1-4F6B-8D20-5AF28EC4C27B}" />
@@ -6656,6 +6820,7 @@
 						<Child Name="label4" Owner="{8F6CBC8A-F1FE-43F7-9174-6C54338B95FE}">
 							<Child Name="textnode4" Owner="{7E91AA68-F8D5-4100-B85B-0182ECE1064F}" />
 						</Child>
+						<Child Name="textnode202112240069j905000281682" Owner="{64A1334F-B502-49D1-ADFB-9F9E9742A930}" />
 					</Child>
 				</Child>
 				<Child Name="formFormContentWrite" Owner="{737C724F-AFBD-4103-80DF-92A6C4F9EC11}">
@@ -6665,6 +6830,7 @@
 						<Child Name="textboxLocalePlhGlacctGroup" Owner="{31FB39A6-91DE-40C3-BB40-7F8457F9A256}" />
 						<Child Name="textboxLocalePlhPd" Owner="{6B39C5BE-9CB8-41A0-ADE5-5BB19EDB847A}" />
 						<Child Name="imageIconInputClearSvg" Owner="{676CA48C-77A7-4145-87EB-3ED7CBEC2C45}" />
+						<Child Name="textbox" Owner="{ACB51131-CF2F-49DB-A8C7-497FE8453A51}" />
 					</Child>
 					<Child Name="section2" Owner="{16F2E1D1-DA8D-4324-B679-3E03B49E5307}">
 						<Child Name="buttonBtnapprvrqst" Owner="{314995A5-9F21-48B9-A056-E6D304AA94C3}" />
@@ -6680,6 +6846,7 @@
 				</Child>
 				<Child Name="section4" Owner="{AAF65E84-B174-401C-9C0A-2E165DB0E114}">
 					<Child Name="button2" Owner="{E2C86D1E-88CC-4ECD-93BD-96CF6B97B06D}" />
+					<Child Name="panel" Owner="{5FD52A34-3D1E-43AA-8CB6-18DB98CC3D92}" />
 				</Child>
 				<Child Name="header" Owner="{2332E057-686A-49D6-8D0C-4FE7D03BA257}">
 					<Child Name="link" Owner="{BA0DDF8B-B2A4-45BF-8E26-C3413C1EBDAB}" />
@@ -6694,8 +6861,14 @@
 				<Child Name="section5" Owner="{D2EF5A92-24F1-46BC-8FFD-F3F61C75EFD2}">
 					<Child Name="textnodeUlAppendSearchresult" Owner="{147689CE-6819-465E-B6B7-778047F9854F}">
 						<Child Name="linkShlim20220325" Owner="{609B8FEA-74CF-40C7-8833-3DFE8FC667F0}" />
+						<Child Name="textnode5" Owner="{67BCB4DC-BB7F-42D0-8097-0A0BDF84196E}" />
+						<Child Name="link3" Owner="{A0A21B95-10B1-4B2C-B007-947CE58B879B}" />
 					</Child>
 				</Child>
+				<Child Name="header2" Owner="{E229DDFD-4826-466E-A926-B0C2D790FC52}">
+					<Child Name="link4" Owner="{7E460D0C-6077-47D1-B6A8-04F33288F00F}" />
+				</Child>
+				<Child Name="link5" Owner="{0E2A4280-149B-4F38-8FEA-E4F5C99CFD64}" />
 			</Child>
 			<Child Name="dlg_" Owner="{B48AE35B-4860-44AE-A53B-06441C8AAB28}">
 				<Child Name="btn_" Owner="{0A5F1410-DA99-4EE3-9ADB-92DCABAC3205}" />
@@ -6746,6 +6919,9 @@
 				</Child>
 				<Child Name="header" Owner="{4E8D29D1-3D89-4481-A422-C5B4DD59C677}">
 					<Child Name="link" Owner="{3BB5D38D-846C-4B40-9BBD-98335FD5540B}" />
+				</Child>
+				<Child Name="headerLocaleMessageBack" Owner="{F0FB302E-4E62-4F55-9290-9800381B6F30}">
+					<Child Name="linkLocaleMessageBack" Owner="{B6F3A47A-5EEE-4E0F-9F8E-47F5ACB114E2}" />
 				</Child>
 			</Child>
 			<Child Name="pageSearch" Owner="{3EC4F381-C4F9-41AC-BC6E-F9054640F87F}">
