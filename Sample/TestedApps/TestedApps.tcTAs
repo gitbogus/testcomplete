@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{33FA6CC1-74F1-4A7B-9482-D8DCFA87829B}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{655A1395-465E-45CF-BA67-6C451F48801A}">
+			<config nodeName="notepad" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Program Files\Notepad++" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Program Files\Notepad++" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Program Files\Notepad++" />
+					<param name="Simple" fileName="notepad++.exe" filePath="C:\Program Files\Notepad++\" parameters="" workFolder="C:\Program Files\Notepad++" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{DFDF06C8-727C-45A6-8588-02DDABF293B9}">
+			<config nodeName="SmartBearBrowser" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Android">
+					<param name="Android" parameters="" workFolder="" apkFileName="C:\Program Files (x86)\SmartBear\TestComplete 15\Bin\Extensions\Android\SmartBearBrowser.apk" deploy="True" keepDataAndCache="False" grantPermissions="False" signAPKWithCustom="False" keystorePath="" alias="" keystorePassword="" keyPassword="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{52A72CBE-5C5B-4331-8B71-6EC35191E7F6}">
+			<config nodeName="Orders" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="BitBar">
+					<param name="BitBar" parameters="" workFolder="" application="C:\Users\Public\Documents\TestComplete 15 Samples\Mobile\Android\Orders\Orders Application\bin\Orders.apk" upload="True" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

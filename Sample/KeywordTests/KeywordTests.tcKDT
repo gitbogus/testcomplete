@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Test1" key="{B85B4141-C173-4DDA-BA1C-1E0078A4D29A}" path="Test1.tcKDTest" />
+		<child name="Test2" key="{9C6ED4D4-21C5-457F-913F-12E9E6EF0F5D}" path="Test2.tcKDTest" />
+		<child name="Test3" key="{90AA59A1-A18C-404D-9700-193E55DCBFB5}" path="Test3.tcKDTest" />
+		<child name="Test4" key="{53C904A5-073A-44E4-9624-026A3FA62615}" path="Test4.tcKDTest" />
+		<child name="Test5" key="{F5015BA8-1128-4E4A-BF05-7539B68A3B95}" path="Test5.tcKDTest" />
+		<child name="B2B_" key="{2A2C9EC2-AF5F-4D05-A900-1D9C43675218}" path="B2B_.tcKDTest" />
+		<child name="Test6" key="{6D528647-365C-44AA-A436-9F246B8E0F0B}" path="Test6.tcKDTest" />
+		<child name="UAS_Sample1" key="{3EB8F800-FB54-4BCF-AA15-98A899C5A860}" path="UAS_Sample1.tcKDTest" />
+		<child name="S03_talkbai_01_02_Create_Outbound_drder_delievery" key="{B7347B85-CFEE-412E-9B78-EDC3D2DEA4EB}" path="S03_talkbai_01_02_Create_Outbound_drder_delievery.tcKDTest" />
+		<child name="UAS_Sample2" key="{C1A3BDFF-C8A8-4E6F-BBB8-0E1E7C4B2B10}" path="UAS_Sample2.tcKDTest" />
+		<child name="UAS_Sample3_New" key="{62AE937A-87A5-4B71-86DC-844C8B420F48}" path="UAS_Sample3_New.tcKDTest" />
+		<child name="UAS_Sample4" key="{CCA962AC-B04E-4D2C-94C7-0AE8EA84E8F1}" path="UAS_Sample4.tcKDTest" />
+		<child name="Test7" key="{81086092-9DAE-4F96-8EBA-38B3F15F6DA5}" path="Test7.tcKDTest" />
+		<child name="UAS_Sample5" key="{D7705DE9-68D8-449F-ADD9-3A8C338CDF05}" path="UAS_Sample5.tcKDTest" />
+		<child name="Jubdeaby" key="{DBA86153-7481-43FB-A9CD-88B6A2A5AF1C}" path="Jubdeaby.tcKDTest" />
+		<child name="Test9" key="{DD6634A1-9A37-4804-AF3B-DB6574A9220A}" path="Test9.tcKDTest" />
+	</children>
+</Root>
