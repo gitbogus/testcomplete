@@ -1,0 +1,2282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{B8C99191-17F8-41FB-9521-ACA8038E5708}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{DF5904A9-F5F5-4F6F-B3E5-3A8411587317}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{155CC999-778E-41EB-AAFC-2CA1960DABB4}">
+								<Image FileName="1725389034" Left="0" Top="0" Right="516" Bottom="828" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageHr" Key="{0F41E664-8C8D-447E-BE24-2E0196C0C3E1}">
+								<Image FileName="1725389034" Left="8" Top="112" Right="368" Bottom="852" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://m-hr-qa.singlex.com/ko/auth/login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="label" Key="{E01C9AE7-13AD-408B-BC67-D7D2E9EC31F4}">
+										<Image FileName="1725389034" Left="48" Top="332" Right="328" Bottom="404" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;아이디&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputText" Key="{9572D308-2657-4398-9B56-5BE6D0F4B061}">
+										<Image FileName="1725389034" Left="48" Top="356" Right="328" Bottom="404" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#input__text" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label//input[contains(@class, &apos;text__field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div//label//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label2" Key="{B091E86B-4E7B-48DA-BC03-6B0C2672BAFC}">
+										<Image FileName="-1750429406" Left="48" Top="424" Right="328" Bottom="500" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;패스워드&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxInputText" Key="{E2CF36EB-41C9-417B-80C6-B792179C99E3}">
+										<Image FileName="-1750429406" Left="48" Top="452" Right="328" Bottom="500" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/label/div/input[contains(@class, &apos;text__field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[2]/div/label/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/label/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{EB0EE891-FF43-478F-B6F1-8FE74541188D}">
+										<Image FileName="890190669" Left="48" Top="590" Right="328" Bottom="642" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;로그인&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageHr2" Key="{A13FB52E-69BD-4330-B175-E79B2F519561}">
+								<Image FileName="-138321643" Left="8" Top="112" Right="368" Bottom="852" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://m-hr-qa.singlex.com/ko" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{58D142AE-E4A5-432C-86C3-622F09481052}">
+										<Image FileName="-138321643" Left="234" Top="466" Right="263" Bottom="534" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;휴가&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//div[4]/a//div[contains(@class, &apos;work_item_title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{BC4D9E8C-14AD-4FE0-91F2-68FE4E748CCD}">
+										<Image FileName="1876246783" Left="234" Top="352" Right="293" Bottom="420" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;근로시간&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//div[2]/a//div[contains(@class, &apos;work_item_title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{36B5A062-00FC-4BA3-A282-0F4722348E3E}">
+										<Image FileName="117792996" Left="70" Top="440" Right="129" Bottom="508" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;연장근로&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//div[3]/a//div[contains(@class, &apos;work_item_title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel4" Key="{29E48CF0-2F31-42C4-8DE3-FA07C59AFD4B}">
+										<Image FileName="-1063885572" Left="70" Top="580" Right="99" Bottom="648" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;휴무&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//div[5]/a//div[contains(@class, &apos;work_item_title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{6763CB6F-7B83-4945-860E-3B293F645245}">
+										<Image FileName="1546753283" Left="8" Top="112" Right="368" Bottom="168" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;메뉴&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;hr_header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{1D359CF1-2409-4AB7-8744-7910077A5514}">
+										<Image FileName="1546753283" Left="8" Top="112" Right="64" Bottom="168" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;메뉴&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;hr_header_btn_menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navHrService" Key="{7D22C136-12D4-495A-BEAC-2D86EDD95783}">
+										<Image FileName="-276840151" Left="8" Top="112" Right="368" Bottom="852" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/nav[contains(@class, &apos;index__side__menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[2]/div/div/nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel5" Key="{29145999-9AE0-4A73-8FE7-C4182BEB4CA6}">
+										<Image FileName="-276840151" Left="8" Top="679" Right="296" Bottom="717" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[157]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel6" Key="{4EB8AC30-3232-44AC-B777-FE0702457930}">
+										<Image FileName="1305070270" Left="8" Top="527" Right="296" Bottom="565" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[145]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageHr3" Key="{D96ED993-1BDF-4403-AC90-31849EBB87BA}">
+								<Image FileName="-94090465" Left="8" Top="112" Right="368" Bottom="852" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://m-hr-qa.singlex.com/ko/nexthr/leave*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="button" Key="{3E32F62A-5C3F-435E-ACAF-13EAA46D5454}">
+										<Image FileName="-94090465" Left="257" Top="284" Right="340" Bottom="339" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;신청&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//main//div//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//div//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label" Key="{D695A798-6BF6-4101-A60D-655312BC3A64}">
+										<Image FileName="-932795533" Left="28" Top="380" Right="348" Bottom="442" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;구분&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelRadio" Key="{C447EC11-C6E7-4CD2-AEF3-BE07DFE20091}">
+										<Image FileName="-932795533" Left="109" Top="422" Right="190" Bottom="442" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/label[@role=&apos;radio&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/label[contains(@class, &apos;v__radio__button__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//label/div[3]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/div[3]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{45E04A82-1EB7-4414-85F3-9AA009C2B01D}">
+										<Image FileName="-932795533" Left="109" Top="412" Right="184" Bottom="452" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;오전&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/label/span[contains(@class, &apos;v__radio__button__label__text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[3]/label/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label2" Key="{7B2BCFB8-D239-42D0-901C-EDCB54DD032A}">
+										<Image FileName="-821095319" Left="28" Top="472" Right="348" Bottom="530" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;근태유형&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label3" Key="{7D1280B6-A20E-408E-8B34-24528C8F4C35}">
+										<Image FileName="293569411" Left="28" Top="566" Right="348" Bottom="638" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;휴가사유&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputText" Key="{9358B2C7-95FD-49B3-BAAC-ABA846146EB6}">
+										<Image FileName="293569411" Left="28" Top="590" Right="348" Bottom="638" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;text__field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#input__text" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelWbsCcIt" Key="{5E0C905D-86E9-4DA6-8EB2-3B64882B7A97}">
+										<Image FileName="651133734" Left="28" Top="656" Right="348" Bottom="714" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;WBS/CC/IT&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select2" Key="{B80761F3-5F88-4E94-8576-3B1651278E0A}">
+										<Image FileName="651133734" Left="28" Top="680" Right="348" Bottom="728" />
+										<TypeInfo Item0="{3C41C28D-75FC-4293-8984-034531CDA84C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]/label/select[contains(@class, &apos;font-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[4]/label/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/label/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{926CA57C-73B1-4719-BD8E-7D2F23A7F483}">
+										<Image FileName="2061703071" Left="28" Top="748" Right="348" Bottom="768" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/div[5]/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button2" Key="{32278D1A-2F31-4E6D-8FAE-5C55037615B0}">
+										<Image FileName="-747968040" Left="29" Top="779" Right="347" Bottom="831" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/div/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{7207C8F7-C705-4DBE-99B0-E1EE75FAD9E5}">
+										<Image FileName="-1993832651" Left="109" Top="412" Right="184" Bottom="452" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/label/span[contains(@class, &apos;v__radio__button__label__text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[3]/label/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select" Key="{D9408CF3-D869-4F7E-8934-0E4E27567135}">
+										<Image FileName="-1232292159" Left="28" Top="496" Right="348" Bottom="546" />
+										<TypeInfo Item0="{7398B688-35BE-43FD-AF64-AEDDF8D8F8E3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/label/select[contains(@class, &apos;font-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[2]/label/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel10" Key="{DC0EA530-B58D-4D16-A723-03AE2AE84EE5}">
+										<Image FileName="1338472489" Left="263" Top="553" Right="313" Bottom="614" />
+										<TypeInfo Item0="{C5E58C2D-B11B-4A81-BDE4-65497413746B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[23]//div[contains(@class, &apos;v__calendar__day__cell&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel06100610" Key="{DDDBCE83-DE50-472C-BC01-060D13F66198}">
+										<Image FileName="261559098" Left="8" Top="194" Right="368" Bottom="854" />
+										<TypeInfo Item0="{C5E58C2D-B11B-4A81-BDE4-65497413746B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;entire-sheet--content&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSvgXmlBase64Phn2zyb3awr0ad0" Key="{5847D582-B0B1-429C-A642-ED9969F432E5}">
+										<Image FileName="531045384" Left="287" Top="706" Right="299" Bottom="718" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;input__search-chip_close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[5]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{93A96ACE-EF00-46DA-B745-1E0A06DB599E}">
+										<Image FileName="531045384" Left="28" Top="700" Right="348" Bottom="746" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;input__search&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{9D34C0A4-9EC5-464F-BB00-509746D240B1}">
+										<Image FileName="1085866882" Left="28" Top="538" Right="348" Bottom="587" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{6726CC47-25FA-4908-8ACE-66FC47EC9ABC}">
+										<Image FileName="-1054125522" Left="8" Top="595" Right="368" Bottom="656" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;손영민&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;aline--content__ul&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{4296452C-1B23-463C-B4B9-AA3EFCF4F89D}">
+										<Image FileName="-1054125522" Left="96" Top="605" Right="368" Bottom="646" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//li/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel24" Key="{1BFFF31A-79D9-4B7B-A861-570C3C81734C}">
+										<Image FileName="1329015782" Left="263" Top="694" Right="313" Bottom="755" />
+										<TypeInfo Item0="{C5E58C2D-B11B-4A81-BDE4-65497413746B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[39]//div[contains(@class, &apos;v__calendar__day__cell&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel4" Key="{76FCE10F-D0FE-454D-A3E7-755367E3EC7B}">
+										<Image FileName="1714643418" Left="268" Top="722" Right="308" Bottom="748" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;worktype&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel5" Key="{64C25B10-50EF-4720-A3CC-F338A9750796}">
+										<Image FileName="2122997333" Left="74" Top="671" Right="348" Bottom="731" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main//div[3]//div[contains(@class, &apos;golden&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button3" Key="{AF48A0AF-8DA5-43C2-ADF2-39339E628896}">
+										<Image FileName="-513225515" Left="204" Top="508" Right="301" Bottom="541" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;네,취소합니다&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNuxt" Key="{5956C412-4717-4092-A4B3-1F237F7A0200}">
+										<Image FileName="22406296" Left="8" Top="112" Right="368" Bottom="1196" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="__nuxt" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelLayout" Key="{9C24CECC-EDD5-4D2C-A712-9396525C460B}">
+												<Image FileName="22406296" Left="8" Top="112" Right="368" Bottom="1196" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="__layout" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{308AE459-355B-443B-B2D8-5F4A2B4AB300}">
+														<Image FileName="22406296" Left="8" Top="112" Right="368" Bottom="1196" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{D56A4DE9-0C2D-4D21-9277-9C3598186944}">
+																<Image FileName="22406296" Left="8" Top="1196" Right="368" Bottom="1196" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{97C252E1-AD8F-433F-ADD6-1318630FF523}">
+																		<Image FileName="22406296" Left="8" Top="112" Right="368" Bottom="852" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{AC09DB8A-0864-4296-B617-C36E59D046A7}">
+																				<Image FileName="22406296" Left="8" Top="112" Right="368" Bottom="852" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panel" Key="{E4AF8D88-1355-4F0F-B5CD-D38CC2EBFAB6}">
+																						<Image FileName="22406296" Left="8" Top="112" Right="368" Bottom="854" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panel06240624" Key="{46EED6FF-AFC2-46F1-9750-C5B033F53BD0}">
+																								<Image FileName="22406296" Left="8" Top="194" Right="368" Bottom="854" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panel06240624" Key="{85F855E6-CA0E-4E3C-9A16-254D965684CF}">
+																										<Image FileName="22406296" Left="28" Top="218" Right="348" Bottom="726" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panel06240624" Key="{64EFFF48-048C-4314-84C6-50C5324EC68E}">
+																												<Image FileName="22406296" Left="28" Top="218" Right="348" Bottom="726" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="panel" Key="{FDB05313-B939-4253-96B7-C81D8C986A24}">
+																														<Image FileName="22406296" Left="28" Top="380" Right="348" Bottom="726" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value Value="2" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="panel" Key="{7AD235E2-B494-45BB-AA16-EB1EAD3AD8B3}">
+																																<Image FileName="22406296" Left="28" Top="472" Right="348" Bottom="544" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																	<Property Name="ObjectIdentifier">
+																																		<Value Value="1" Type="0" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="labelRefreshRefreshHr" Key="{022E59FD-BFCD-4788-9530-E069AAFAF0E2}">
+																																		<Image FileName="22406296" Left="28" Top="472" Right="348" Bottom="530" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Label" />
+																																			</Property>
+																																			<Property Name="contentText">
+																																				<Value Value="FCADDCD020C715D60A0020C1DDD058D538C194C60A0004D55CB81DC8B8D2520065006600720065007300680034D700AC280044B128CC2D0024C604C829000A00FCAD8DC1520065006600720065007300680034D700AC280044B128CC2D0024C604C829000A00F0C528CC280024C604C829000A00F4BCC1C034D700AC280024C604C829000A0058D5C4AC34D700AC280024C604C829000A00BDAC70C834D700AC280024C604C829000A00F5AC00AC28004800520000D311D658C744D594C62D0024C604C82900" Type="7" />
+																																			</Property>
+																																		</Properties>
+																																		<Children>
+																																			<Child Name="select" Key="{A7F63024-25DC-4D48-8FF4-86E92AAC5C13}">
+																																				<Image FileName="22406296" Left="28" Top="496" Right="348" Bottom="544" />
+																																				<TypeInfo Item0="{206F9D51-2330-4DCD-A00C-5C355A80F067}" />
+																																				<Properties>
+																																					<Property Name="ObjectType">
+																																						<Value Value="Select" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																		</Children>
+																																	</Child>
+																																</Children>
+																															</Child>
+																															<Child Name="textboxInputText" Key="{E7CBB958-ECEF-4E7C-A1B3-71D92AF767A0}" ExtendedFind="True">
+																																<Image FileName="1960338117" Left="28" Top="590" Right="348" Bottom="638" />
+																																<TypeInfo Item0="{CE693A45-8665-46F0-90CF-D3594E4B5BA9}" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Textbox" />
+																																	</Property>
+																																	<Property Name="idStr">
+																																		<Value Value="input__text" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																															<Child Name="selectWbsCcIt" Key="{1884EFBE-3A0F-4468-B68B-C9FE63B6B9C5}" ExtendedFind="True">
+																																<Image FileName="288071713" Left="28" Top="680" Right="348" Bottom="728" />
+																																<TypeInfo Item0="{206F9D51-2330-4DCD-A00C-5C355A80F067}" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Select" />
+																																	</Property>
+																																	<Property Name="ObjectLabel">
+																																		<Value Value="WBS/CC/IT" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLoginOfficeplus" Key="{3C6617C9-393A-441B-8512-46485EAD72A6}">
+								<Image FileName="-235456359" Left="8" Top="112" Right="1464" Bottom="988" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://officeplus.lgcns.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionLoginPage" Key="{01C09EAB-30E1-4247-99B4-C1F5C6931E01}">
+										<Image FileName="-235456359" Left="501" Top="275" Right="971" Bottom="890" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login-page" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;암호는 U-Cloud와 동일합니다.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formUCloud" Key="{E81EDFA8-25A3-4309-9E2C-307DB1D4C347}">
+										<Image FileName="-235456359" Left="521" Top="450" Right="951" Bottom="696" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;암호는 U-Cloud와 동일합니다.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;login-form&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="fieldsetLoginInputundefined" Key="{EE115121-BB19-4200-B56E-0DCFBAC63368}">
+										<Image FileName="-235456359" Left="521" Top="450" Right="951" Bottom="646" />
+										<Selectors>
+											<Selector>
+												<Value Value="//fieldset[contains(., &apos;암호는 U-Cloud와 동일합니다.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/fieldset[contains(@class, &apos;login-input&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxId" Key="{FDD18908-CC88-4EE0-8C35-3CA2548046E4}">
+										<Image FileName="-235456359" Left="521" Top="450" Right="951" Bottom="503" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#id" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;id&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset/div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset/div/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;login-page&apos;]//div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageHr4" Key="{6CDD43D7-9538-4AA8-BA89-DF037D493AC2}">
+								<TypeInfo Item0="{93392315-406A-4DAC-ABCA-C778B83F0F19}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://m-hr-qa.singlex.com/ko/nexthr/worktime*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel2" Key="{E299FE98-264A-423E-B22F-DA77801FCACD}">
+										<Image FileName="-297259366" Left="213" Top="655" Right="263" Bottom="676" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[14]//div[contains(@class, &apos;v__calendar__day__cell__label&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1" Key="{FF58135D-B6A4-4EC9-8126-AA3A52C7C9F9}">
+										<Image FileName="-297259366" Left="28" Top="658" Right="348" Bottom="736" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]/div/div/div[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{9BC49F52-B9F3-49E9-9E4D-27BCEE0BFF1B}">
+										<Image FileName="-297259366" Left="73" Top="772" Right="130" Bottom="793" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]//div[5]//span[contains(@class, &apos;font-medium&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[4]//div[5]/div[2]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//div[5]/div[2]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode0900" Key="{C4C5D9DE-0FC6-454C-83AF-67A798F411F7}">
+										<Image FileName="-297259366" Left="131" Top="782" Right="188" Bottom="803" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]//div[5]//div[2]/span[contains(@class, &apos;font-medium&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[5]/div[2]/div[2]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/div[2]/div[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode1800" Key="{BD1BA638-D83E-4403-A60B-82E564F0D172}">
+										<Image FileName="-297259366" Left="188" Top="782" Right="245" Bottom="803" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]//div[5]//div[3]/span[contains(@class, &apos;font-medium&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[5]/div[2]/div[3]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/div[2]/div[3]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode80" Key="{DF4FB644-3DB0-4D9B-8197-841D33C0D195}">
+										<Image FileName="-1662222844" Left="245" Top="772" Right="302" Bottom="814" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]//div[5]//div[4]/span[contains(@class, &apos;font-medium&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[5]/div[2]/div[4]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/div[2]/div[4]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageHr5" Key="{F0E14606-C1FE-4020-AD1F-7F9DBF4CCAF4}">
+								<TypeInfo Item0="{93392315-406A-4DAC-ABCA-C778B83F0F19}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://m-hr-qa.singlex.com/ko/nexthr/overtime*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode3" Key="{7FC67BBF-DA32-4091-B85D-C4DA84E70421}">
+										<Image FileName="914181484" Left="284" Top="483" Right="292" Bottom="502" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[2]/div[15]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[15]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label" Key="{91F13E1F-0518-4C40-8E04-F319C1616FCD}">
+										<Image FileName="-1814256636" Left="28" Top="380" Right="348" Bottom="443" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;예상시수&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputText" Key="{88DFE2E0-EA06-47F0-8FD8-FE4FD282A888}">
+										<Image FileName="-1814256636" Left="28" Top="404" Right="348" Bottom="443" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#input__text" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label//input[contains(@class, &apos;text__field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div//label//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{E0DB758F-044D-48B8-AD2F-7F0CDC68023F}">
+										<Image FileName="-875631432" Left="100" Top="599" Right="188" Bottom="631" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//div[contains(@class, &apos;middle&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{0F9AF0A3-4508-421F-B226-598FC2068497}">
+										<Image FileName="-1843946208" Left="49" Top="779" Right="327" Bottom="831" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;확인&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//span/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label2" Key="{235D639D-255F-4DB2-AF03-11826C070B25}">
+										<Image FileName="678342171" Left="28" Top="463" Right="348" Bottom="535" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;신청사유&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputText2" Key="{871B56A5-D657-4256-A2BB-27987CCD5002}">
+										<Image FileName="678342171" Left="28" Top="487" Right="348" Bottom="535" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/label//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label//input[contains(@class, &apos;text__field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[2]/label//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelWbsCcIt" Key="{5AABB29F-001C-44AA-AB1A-376AA095ECFA}">
+										<Image FileName="1589201825" Left="28" Top="638" Right="348" Bottom="696" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;WBS/CC/IT&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select" Key="{187925E2-D2C2-48B1-898E-06E3EE5EB7AE}">
+										<Image FileName="1589201825" Left="28" Top="662" Right="348" Bottom="710" />
+										<TypeInfo Item0="{3C41C28D-75FC-4293-8984-034531CDA84C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[contains(@class, &apos;font-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//select" />
+											</Selector>
+											<Selector>
+												<Value Value="//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button2" Key="{9250BF86-2C6E-417E-AF32-7E93DBCB34B8}">
+										<Image FileName="1598096208" Left="29" Top="779" Right="347" Bottom="831" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/div/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputText3" Key="{C17884D0-BC3B-47BC-8032-1C25498A4ABB}">
+										<Image FileName="2076009325" Left="28" Top="404" Right="348" Bottom="443" />
+										<TypeInfo Item0="{30E18876-6A1F-48BB-83C7-7D19E04FB2B4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#input__text" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label//input[contains(@class, &apos;text__field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div//label//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelScm" Key="{2E6692A0-F12D-4084-8EA9-93ECD17EA5A1}">
+										<Image FileName="-1211278820" Left="28" Top="700" Right="348" Bottom="748" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/div[5]//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{69781073-D0E4-4825-A642-CB28EBDDAA2B}">
+										<Image FileName="44691670" Left="28" Top="538" Right="348" Bottom="587" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{586D5783-FEC8-48B9-BAFA-ED6589E34106}">
+										<Image FileName="1594698187" Left="8" Top="595" Right="368" Bottom="656" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;성진숙&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;aline--content__ul&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{C1DF260F-3CDF-445E-BF7F-F7342961C1BE}">
+										<Image FileName="1594698187" Left="96" Top="605" Right="368" Bottom="628" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(text(), &apos;성진숙&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;font-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//ul/li//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel06030603" Key="{CDF81FF4-063B-45D6-A62F-441A44118923}">
+										<Image FileName="-1883481213" Left="8" Top="194" Right="368" Bottom="854" />
+										<TypeInfo Item0="{C5E58C2D-B11B-4A81-BDE4-65497413746B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;entire-sheet--content&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageHr6" Key="{17523248-FE82-4CCD-93F3-049DFB2F1DFE}">
+								<TypeInfo Item0="{93392315-406A-4DAC-ABCA-C778B83F0F19}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://m-hr-qa.singlex.com/ko/nexthr/offduty*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel10" Key="{9DB7BAC1-6BA3-456E-AB38-E44FC4109A52}">
+										<Image FileName="1532664696" Left="263" Top="553" Right="313" Bottom="574" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[23]//div[contains(@class, &apos;v__calendar__day__cell__label&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label" Key="{76B05518-B4BE-48A3-BA1A-D2D858310E56}">
+										<Image FileName="1326105238" Left="28" Top="380" Right="348" Bottom="442" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;구분&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelRadio" Key="{EC826798-5008-48EA-8358-ADA4025C6102}">
+										<Image FileName="1326105238" Left="28" Top="422" Right="109" Bottom="442" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/label[@role=&apos;radio&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label[contains(@class, &apos;v__radio__button__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//label/div[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{432CA67F-2BF6-4CFE-B41F-81975A90063B}">
+										<Image FileName="1326105238" Left="28" Top="412" Right="103" Bottom="452" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;전일&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label/span[contains(@class, &apos;v__radio__button__label__text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//label/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label2" Key="{1E89B3E7-F454-41F3-A205-B059218F2E09}">
+										<Image FileName="1399603760" Left="28" Top="472" Right="348" Bottom="530" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;근태유형&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select" Key="{4E8328E6-F075-426C-9997-1FBDA7497A9F}">
+										<Image FileName="1399603760" Left="28" Top="496" Right="348" Bottom="544" />
+										<TypeInfo Item0="{3C41C28D-75FC-4293-8984-034531CDA84C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/label/select[contains(@class, &apos;font-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[2]/label/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label3" Key="{DD1DED3C-5DC8-42DE-8A5A-D0717C5074BC}">
+										<Image FileName="-1852064036" Left="28" Top="566" Right="348" Bottom="624" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;휴무사유&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select2" Key="{C891490D-CE10-4FCD-B705-24B99F6F5351}">
+										<Image FileName="-1852064036" Left="28" Top="590" Right="348" Bottom="638" />
+										<TypeInfo Item0="{3C41C28D-75FC-4293-8984-034531CDA84C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/label/select[contains(@class, &apos;font-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[3]/label/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/label/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label4" Key="{2989D280-4A9C-4C06-82D8-A6B0D46AED9C}">
+										<Image FileName="-1666947586" Left="28" Top="558" Right="348" Bottom="630" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputText" Key="{70FD1FDE-54E5-49AA-8176-7D6692EF8CA9}">
+										<Image FileName="-1666947586" Left="28" Top="582" Right="348" Bottom="630" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#input__text" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;text__field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelWbsCcIt" Key="{87645223-FF65-4232-B887-F69D0080389F}">
+										<Image FileName="-494908006" Left="28" Top="648" Right="348" Bottom="706" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;WBS/CC/IT&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[5]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select3" Key="{A3F6F2FE-E34A-40AC-B478-7BD8DAFD4967}">
+										<Image FileName="-494908006" Left="28" Top="672" Right="348" Bottom="720" />
+										<TypeInfo Item0="{3C41C28D-75FC-4293-8984-034531CDA84C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]/label/select[contains(@class, &apos;font-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[5]/label/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/label/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSvgXmlBase64Phn2zyb3awr0ad0" Key="{62C4E22C-7FAA-4F5B-A45D-61CFF1B9B547}">
+										<Image FileName="637245931" Left="183" Top="716" Right="195" Bottom="728" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;input__search-chip_close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[6]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{7390E7C6-515B-4FAF-9F3A-3C7038CC73C1}">
+										<Image FileName="1756716064" Left="28" Top="700" Right="348" Bottom="746" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/div[6]//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{4AB27DCE-19AC-4EAA-B2E5-BE9CAD473C88}">
+										<Image FileName="-1260168652" Left="28" Top="538" Right="348" Bottom="587" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{2CD9B2FE-5ED7-4D1C-9B83-A20D2F649EA6}">
+										<Image FileName="361475541" Left="8" Top="595" Right="368" Bottom="656" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;성진숙&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;aline--content__ul&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{5EB4C105-0983-4FC1-940C-F80EB4F23DCE}">
+										<Image FileName="361475541" Left="96" Top="605" Right="368" Bottom="628" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(text(), &apos;성진숙&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;font-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//ul/li//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{E6467826-A7CC-4F30-95C2-9436F27A77F8}">
+										<Image FileName="-895095219" Left="29" Top="779" Right="347" Bottom="831" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/div/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel102" Key="{FCAC7E58-7816-42EE-9374-2D91302D96B9}">
+										<Image FileName="1629653752" Left="263" Top="553" Right="313" Bottom="614" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[23]//div[contains(@class, &apos;v__calendar__day__cell&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{DA2164A7-9A5C-4735-BA9C-D901B6A0C226}">
+										<Image FileName="-147074332" Left="74" Top="671" Right="348" Bottom="731" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main//div[3]//div[contains(@class, &apos;golden&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button2" Key="{A8F76B29-6BF0-4BBF-977F-05FB8D870407}">
+										<Image FileName="1283891013" Left="204" Top="508" Right="301" Bottom="541" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;네,취소합니다&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel06100610" Key="{D694B1D6-19E4-4C80-B3D4-C2B0AAC3722C}">
+										<Image FileName="1833273106" Left="8" Top="194" Right="368" Bottom="854" />
+										<TypeInfo Item0="{C5E58C2D-B11B-4A81-BDE4-65497413746B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;entire-sheet--content&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4" Key="{FD2A6E96-D331-485A-AAFB-A53CC9E61886}">
+										<Image FileName="-305186962" Left="268" Top="583" Right="308" Bottom="601" />
+										<TypeInfo Item0="{C5E58C2D-B11B-4A81-BDE4-65497413746B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;휴무(신청)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;font-bold&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[2]/div[23]//div[2]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[23]//div[2]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageHr7" Key="{5B8EF2D8-BD6F-4243-9E1B-E9DA5AC47511}">
+								<TypeInfo Item0="{93392315-406A-4DAC-ABCA-C778B83F0F19}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://m-hr-qa.singlex.com/ko/certificate*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="button" Key="{2183B024-0A45-480F-9458-41081BFCE260}">
+										<Image FileName="-1894260979" Left="257" Top="325" Right="340" Bottom="380" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;신청&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//div//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//main//div//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//div//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label" Key="{CF962538-F3ED-4AC5-81B6-4137E1F974FF}">
+										<Image FileName="-1977862008" Left="28" Top="218" Right="348" Bottom="275" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;증명서 종류&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select" Key="{0BF3590D-5C6B-4476-BA5B-D580F4AF4B1E}">
+										<Image FileName="-1977862008" Left="28" Top="242" Right="348" Bottom="290" />
+										<TypeInfo Item0="{3C41C28D-75FC-4293-8984-034531CDA84C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/label/select[contains(@class, &apos;font-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div/label/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/label/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label2" Key="{1DBF8D7B-8AC2-45A2-9CFD-47834988898A}">
+										<Image FileName="2099924312" Left="28" Top="312" Right="348" Bottom="369" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;발생용도&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select2" Key="{540F0871-BC17-4B53-A88A-748C8E6C28A5}">
+										<Image FileName="2099924312" Left="28" Top="336" Right="348" Bottom="384" />
+										<TypeInfo Item0="{3C41C28D-75FC-4293-8984-034531CDA84C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/label/select[contains(@class, &apos;font-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[2]/label/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label3" Key="{30EF89DD-F270-4F12-8C01-1372D3248739}">
+										<Image FileName="-360296122" Left="28" Top="588" Right="348" Bottom="660" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;연락처&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputText" Key="{8CDB4071-6CAD-4096-813A-ABF9D55C3351}">
+										<Image FileName="-360296122" Left="28" Top="612" Right="348" Bottom="660" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#input__text" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;onlyTel&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/label//input[contains(@class, &apos;text__field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[5]/label//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/label//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label4" Key="{F60ACDF0-0867-427A-BB92-8CB2B47D7F3C}">
+										<Image FileName="-1832866035" Left="28" Top="678" Right="348" Bottom="750" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;제출처&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[6]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputText2" Key="{0DC45C89-533D-481D-96F9-6C379D5A0B22}">
+										<Image FileName="-1832866035" Left="28" Top="702" Right="348" Bottom="750" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[6]/label//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/label//input[contains(@class, &apos;text__field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[6]/label//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/label//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label5" Key="{DFA47407-AB07-431C-B293-19DF01DB3254}">
+										<Image FileName="-1478414338" Left="28" Top="570" Right="348" Bottom="610" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;주민번호 표시&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[7]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label6" Key="{E4CAB18F-0B01-4976-8BB4-48BE0C334B75}">
+										<Image FileName="-1478414338" Left="28" Top="594" Right="348" Bottom="610" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[7]/label/label[contains(@class, &apos;v__switch__button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//label/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{B590C78F-A566-4114-907B-810B8E899F87}">
+										<Image FileName="-1478414338" Left="28" Top="594" Right="68" Bottom="610" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[7]/label/label//i[contains(@class, &apos;v__switch__button__switch__thumb&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[7]/label/label//i" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]/label/label//i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label7" Key="{D4849AD3-9B78-4D3D-9092-38F2B7CDDD8A}">
+										<Image FileName="-804744445" Left="28" Top="530" Right="348" Bottom="700" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;현주소&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[8]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button2" Key="{66510523-455D-4E82-910D-CEEB39EE62CF}">
+										<Image FileName="-804744445" Left="261" Top="554" Right="348" Bottom="602" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;우편번호 검색&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div//label//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{B5EA9EAE-E1A8-46A1-BEFC-7366957A327B}">
+										<Image FileName="986768904" Left="28" Top="202" Right="348" Bottom="248" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;address--content__address&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{83FD0A69-CAE6-4D19-8D15-31B6592279D7}">
+										<Image FileName="804426998" Left="8" Top="258" Right="368" Bottom="555" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;[07795] 서울특별시 강서구 마곡중앙8로 71(마곡동)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;address--content__list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{4AE0C72E-AE20-401E-BA8F-99B2ADCEAAE3}">
+										<Image FileName="804426998" Left="8" Top="269" Right="368" Bottom="330" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;[07795] 서울특별시 강서구 마곡중앙8로 71(마곡동)&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4" Key="{284B7CA5-8AF5-42CC-9EC5-C35842DCF473}">
+										<Image FileName="1565967464" Left="24" Top="279" Right="352" Bottom="302" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(text(), &apos;[07795] 서울특별시 강서구 마곡중앙8로 71(마곡동)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/p[contains(@class, &apos;address--content__elem-first&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode5" Key="{4690A23F-1C9A-4A66-9AEF-9CA3788D19BE}">
+										<Image FileName="804426998" Left="24" Top="302" Right="352" Bottom="320" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;서울특별시 강서구 마곡동 789-4 LG사이언스파크&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/p[contains(@class, &apos;address--content__elem-second&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button3" Key="{64E354B7-A209-4A5A-BAF7-EC41B74265A2}">
+										<Image FileName="2066230123" Left="28" Top="780" Right="348" Bottom="832" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;선택&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[2]/div[2]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTextField3" Key="{9A86AD95-C482-4A20-AA0D-D6C37BF62860}">
+										<Image FileName="1760196136" Left="28" Top="666" Right="348" Bottom="714" />
+										<TypeInfo Item0="{F6D07BC4-8C60-4733-9134-4E1241870814}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#text__field3" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;input__address--third&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label8" Key="{5FFB318D-F0CC-4E63-B656-216C1FE1F221}">
+										<Image FileName="491560010" Left="28" Top="537" Right="348" Bottom="577" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;세부 경력 포함&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[9]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[9]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[9]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label9" Key="{11AF767D-2685-4D55-8DB3-CC9BD0F6DABF}">
+										<Image FileName="491560010" Left="28" Top="561" Right="348" Bottom="577" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[9]/label/label[contains(@class, &apos;v__switch__button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[9]/label/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[9]/label/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode6" Key="{4D63168C-CED4-4B11-AF8C-9A2A1F77A148}">
+										<Image FileName="491560010" Left="28" Top="561" Right="68" Bottom="577" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[9]/label/label//i[contains(@class, &apos;v__switch__button__switch__thumb&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[9]/label/label//i" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[9]/label/label//i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label10" Key="{5133F770-A922-49D2-8BB9-73A6D39619FC}">
+										<Image FileName="-179775656" Left="28" Top="597" Right="348" Bottom="745" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;요청사항&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[10]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textarea" Key="{A12AA3F7-F1D3-43C7-808E-DEDE94B3365D}">
+										<Image FileName="-179775656" Left="28" Top="621" Right="348" Bottom="741" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button4" Key="{F79AAC43-877D-4201-BB39-25517EF9915A}">
+										<Image FileName="1270167353" Left="28" Top="780" Right="348" Bottom="832" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn--block&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCertificateOfCareerKorea" Key="{52E5E0E9-B0E3-4888-9B30-A841AC75449C}">
+										<Image FileName="1272240137" Left="28" Top="484" Right="278" Bottom="528" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(text(), &apos;Certificate of Career (Korean)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//p[contains(@class, &apos;font-medium&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode7" Key="{F477DDDE-9C41-4BE2-A018-8D6F1F7C7FB9}">
+										<Image FileName="1312457757" Left="334" Top="156" Right="348" Bottom="170" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;entire-sheet--header__close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[2]/div/div/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{F9D7F82B-390B-471A-8E54-96246F6C294C}">
+										<Image FileName="331981888" Left="8" Top="194" Right="368" Bottom="854" />
+										<TypeInfo Item0="{C5E58C2D-B11B-4A81-BDE4-65497413746B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;entire-sheet--content&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select3" Key="{E5E456AE-A503-420F-AB6B-AA0E4C616891}" ExtendedFind="True">
+										<Image FileName="-760799633" Left="28" Top="242" Right="348" Bottom="292" />
+										<TypeInfo Item0="{206F9D51-2330-4DCD-A00C-5C355A80F067}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Select" />
+											</Property>
+											<Property Name="ObjectLabel">
+												<Value Value="증명서 종류" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="select4" Key="{A0407ADF-1B4E-4689-94A8-E7DE973E2196}" ExtendedFind="True">
+										<Image FileName="-862813022" Left="28" Top="334" Right="348" Bottom="382" />
+										<TypeInfo Item0="{206F9D51-2330-4DCD-A00C-5C355A80F067}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Select" />
+											</Property>
+											<Property Name="ObjectLabel">
+												<Value Value="발생용도" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageHr8" Key="{A86858F0-174B-4592-A140-FE4151435B3A}">
+								<TypeInfo Item0="{93392315-406A-4DAC-ABCA-C778B83F0F19}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://m-hr-qa.singlex.com/ko/nexthr/tnaex*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode24" Key="{A9EEF939-18A0-4209-AE4E-3074F1965BC9}">
+										<Image FileName="1093236577" Left="280" Top="715" Right="295" Bottom="734" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[2]/div[39]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[39]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label" Key="{051E1AF2-89EE-42E6-91EA-9AF4F3B80AEC}">
+										<Image FileName="-1355434363" Left="28" Top="380" Right="348" Bottom="438" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;구분&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select" Key="{0BA3F6D5-220D-449D-A3E8-889193AC74C3}">
+										<Image FileName="-1355434363" Left="28" Top="404" Right="348" Bottom="452" />
+										<TypeInfo Item0="{3C41C28D-75FC-4293-8984-034531CDA84C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/label/select[contains(@class, &apos;font-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div/label/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/label/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label2" Key="{3527CC7D-4756-4B47-8ED3-161A3F0705AD}">
+										<Image FileName="-1046562574" Left="28" Top="474" Right="348" Bottom="532" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;신청사유&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label[contains(@class, &apos;input__label__title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select2" Key="{04F93E49-11F7-4CD3-9682-C2773E27BB01}">
+										<Image FileName="-1046562574" Left="28" Top="498" Right="348" Bottom="546" />
+										<TypeInfo Item0="{3C41C28D-75FC-4293-8984-034531CDA84C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/label/select[contains(@class, &apos;font-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__layout&apos;]//div[2]/label/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelScm" Key="{7104BBA3-7E73-455A-8970-AA434616B245}">
+										<Image FileName="-1550146669" Left="28" Top="590" Right="348" Bottom="638" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;disabled&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelScm2" Key="{153FE899-64C2-496C-8437-D7663A978152}">
+										<Image FileName="1897504088" Left="46" Top="598" Right="193" Bottom="626" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;input__search-chip&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeScm" Key="{4102F429-11FE-456F-BC7C-00B1166671FC}">
+										<Image FileName="1897504088" Left="56" Top="602" Right="183" Bottom="622" />
+										<TypeInfo Item0="{8BDA6F7F-B89A-4E8F-9CC9-1E18D758F657}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;[SCM담당] 성진숙 위원&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div/div/div/div/span[contains(@class, &apos;font-medium&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{092A2C6C-4DCA-4F43-AF58-EAC92A346673}">
+										<Image FileName="1897504088" Left="28" Top="780" Right="348" Bottom="832" />
+										<TypeInfo Item0="{701CBAE9-BAD8-4773-BB7C-9BA4F7FE68BD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/div/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{DF5904A9-F5F5-4F6F-B3E5-3A8411587317}">
+			<Child Name="BrowserWindow" Owner="{155CC999-778E-41EB-AAFC-2CA1960DABB4}" />
+			<Child Name="pageHr" Owner="{0F41E664-8C8D-447E-BE24-2E0196C0C3E1}">
+				<Child Name="label" Owner="{E01C9AE7-13AD-408B-BC67-D7D2E9EC31F4}">
+					<Child Name="textboxInputText" Owner="{9572D308-2657-4398-9B56-5BE6D0F4B061}" />
+				</Child>
+				<Child Name="label2" Owner="{B091E86B-4E7B-48DA-BC03-6B0C2672BAFC}">
+					<Child Name="passwordboxInputText" Owner="{E2CF36EB-41C9-417B-80C6-B792179C99E3}" />
+				</Child>
+				<Child Name="button" Owner="{EB0EE891-FF43-478F-B6F1-8FE74541188D}" />
+			</Child>
+			<Child Name="pageHr2" Owner="{A13FB52E-69BD-4330-B175-E79B2F519561}">
+				<Child Name="panel" Owner="{58D142AE-E4A5-432C-86C3-622F09481052}" />
+				<Child Name="panel2" Owner="{BC4D9E8C-14AD-4FE0-91F2-68FE4E748CCD}" />
+				<Child Name="panel3" Owner="{36B5A062-00FC-4BA3-A282-0F4722348E3E}" />
+				<Child Name="panel4" Owner="{29E48CF0-2F31-42C4-8DE3-FA07C59AFD4B}" />
+				<Child Name="header" Owner="{6763CB6F-7B83-4945-860E-3B293F645245}">
+					<Child Name="button" Owner="{1D359CF1-2409-4AB7-8744-7910077A5514}" />
+				</Child>
+				<Child Name="navHrService" Owner="{7D22C136-12D4-495A-BEAC-2D86EDD95783}">
+					<Child Name="panel5" Owner="{29145999-9AE0-4A73-8FE7-C4182BEB4CA6}" />
+					<Child Name="panel6" Owner="{4EB8AC30-3232-44AC-B777-FE0702457930}" />
+				</Child>
+			</Child>
+			<Child Name="pageHr3" Owner="{D96ED993-1BDF-4403-AC90-31849EBB87BA}">
+				<Child Name="button" Owner="{3E32F62A-5C3F-435E-ACAF-13EAA46D5454}" />
+				<Child Name="label" Owner="{D695A798-6BF6-4101-A60D-655312BC3A64}">
+					<Child Name="labelRadio" Owner="{C447EC11-C6E7-4CD2-AEF3-BE07DFE20091}">
+						<Child Name="textnode" Owner="{45E04A82-1EB7-4414-85F3-9AA009C2B01D}" />
+						<Child Name="textnode2" Owner="{7207C8F7-C705-4DBE-99B0-E1EE75FAD9E5}" />
+					</Child>
+				</Child>
+				<Child Name="label2" Owner="{7B2BCFB8-D239-42D0-901C-EDCB54DD032A}">
+					<Child Name="select" Owner="{D9408CF3-D869-4F7E-8934-0E4E27567135}" />
+				</Child>
+				<Child Name="label3" Owner="{7D1280B6-A20E-408E-8B34-24528C8F4C35}">
+					<Child Name="textboxInputText" Owner="{9358B2C7-95FD-49B3-BAAC-ABA846146EB6}" />
+				</Child>
+				<Child Name="labelWbsCcIt" Owner="{5E0C905D-86E9-4DA6-8EB2-3B64882B7A97}">
+					<Child Name="select2" Owner="{B80761F3-5F88-4E94-8576-3B1651278E0A}" />
+				</Child>
+				<Child Name="panel" Owner="{926CA57C-73B1-4719-BD8E-7D2F23A7F483}" />
+				<Child Name="button2" Owner="{32278D1A-2F31-4E6D-8FAE-5C55037615B0}" />
+				<Child Name="panel10" Owner="{DC0EA530-B58D-4D16-A723-03AE2AE84EE5}" />
+				<Child Name="panel06100610" Owner="{DDDBCE83-DE50-472C-BC01-060D13F66198}" />
+				<Child Name="imageSvgXmlBase64Phn2zyb3awr0ad0" Owner="{5847D582-B0B1-429C-A642-ED9969F432E5}" />
+				<Child Name="panel2" Owner="{93A96ACE-EF00-46DA-B745-1E0A06DB599E}" />
+				<Child Name="textbox" Owner="{9D34C0A4-9EC5-464F-BB00-509746D240B1}" />
+				<Child Name="textnode3" Owner="{6726CC47-25FA-4908-8ACE-66FC47EC9ABC}">
+					<Child Name="panel3" Owner="{4296452C-1B23-463C-B4B9-AA3EFCF4F89D}" />
+				</Child>
+				<Child Name="panel24" Owner="{1BFFF31A-79D9-4B7B-A861-570C3C81734C}" />
+				<Child Name="panel4" Owner="{76FCE10F-D0FE-454D-A3E7-755367E3EC7B}" />
+				<Child Name="panel5" Owner="{64C25B10-50EF-4720-A3CC-F338A9750796}" />
+				<Child Name="button3" Owner="{AF48A0AF-8DA5-43C2-ADF2-39339E628896}" />
+				<Child Name="select" Owner="{A7F63024-25DC-4D48-8FF4-86E92AAC5C13}" />
+				<Child Name="textboxInputText" Owner="{E7CBB958-ECEF-4E7C-A1B3-71D92AF767A0}" />
+				<Child Name="selectWbsCcIt" Owner="{1884EFBE-3A0F-4468-B68B-C9FE63B6B9C5}" />
+			</Child>
+			<Child Name="pageLoginOfficeplus" Owner="{3C6617C9-393A-441B-8512-46485EAD72A6}">
+				<Child Name="sectionLoginPage" Owner="{01C09EAB-30E1-4247-99B4-C1F5C6931E01}">
+					<Child Name="formUCloud" Owner="{E81EDFA8-25A3-4309-9E2C-307DB1D4C347}">
+						<Child Name="fieldsetLoginInputundefined" Owner="{EE115121-BB19-4200-B56E-0DCFBAC63368}">
+							<Child Name="textboxId" Owner="{FDD18908-CC88-4EE0-8C35-3CA2548046E4}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageHr4" Owner="{6CDD43D7-9538-4AA8-BA89-DF037D493AC2}">
+				<Child Name="panel2" Owner="{E299FE98-264A-423E-B22F-DA77801FCACD}" />
+				<Child Name="panel1" Owner="{FF58135D-B6A4-4EC9-8126-AA3A52C7C9F9}" />
+				<Child Name="textnode" Owner="{9BC49F52-B9F3-49E9-9E4D-27BCEE0BFF1B}" />
+				<Child Name="textnode0900" Owner="{C4C5D9DE-0FC6-454C-83AF-67A798F411F7}" />
+				<Child Name="textnode1800" Owner="{BD1BA638-D83E-4403-A60B-82E564F0D172}" />
+				<Child Name="textnode80" Owner="{DF4FB644-3DB0-4D9B-8197-841D33C0D195}" />
+			</Child>
+			<Child Name="pageHr5" Owner="{F0E14606-C1FE-4020-AD1F-7F9DBF4CCAF4}">
+				<Child Name="textnode3" Owner="{7FC67BBF-DA32-4091-B85D-C4DA84E70421}" />
+				<Child Name="label" Owner="{91F13E1F-0518-4C40-8E04-F319C1616FCD}">
+					<Child Name="textboxInputText" Owner="{88DFE2E0-EA06-47F0-8FD8-FE4FD282A888}" />
+					<Child Name="textboxInputText3" Owner="{C17884D0-BC3B-47BC-8032-1C25498A4ABB}" />
+				</Child>
+				<Child Name="panel" Owner="{E0DB758F-044D-48B8-AD2F-7F0CDC68023F}" />
+				<Child Name="button" Owner="{0F9AF0A3-4508-421F-B226-598FC2068497}" />
+				<Child Name="label2" Owner="{235D639D-255F-4DB2-AF03-11826C070B25}">
+					<Child Name="textboxInputText2" Owner="{871B56A5-D657-4256-A2BB-27987CCD5002}" />
+				</Child>
+				<Child Name="labelWbsCcIt" Owner="{5AABB29F-001C-44AA-AB1A-376AA095ECFA}">
+					<Child Name="select" Owner="{187925E2-D2C2-48B1-898E-06E3EE5EB7AE}" />
+				</Child>
+				<Child Name="button2" Owner="{9250BF86-2C6E-417E-AF32-7E93DBCB34B8}" />
+				<Child Name="panelScm" Owner="{2E6692A0-F12D-4084-8EA9-93ECD17EA5A1}" />
+				<Child Name="textbox" Owner="{69781073-D0E4-4825-A642-CB28EBDDAA2B}" />
+				<Child Name="textnode" Owner="{586D5783-FEC8-48B9-BAFA-ED6589E34106}">
+					<Child Name="textnode2" Owner="{C1DF260F-3CDF-445E-BF7F-F7342961C1BE}" />
+				</Child>
+				<Child Name="panel06030603" Owner="{CDF81FF4-063B-45D6-A62F-441A44118923}" />
+			</Child>
+			<Child Name="pageHr6" Owner="{17523248-FE82-4CCD-93F3-049DFB2F1DFE}">
+				<Child Name="panel10" Owner="{9DB7BAC1-6BA3-456E-AB38-E44FC4109A52}" />
+				<Child Name="label" Owner="{76B05518-B4BE-48A3-BA1A-D2D858310E56}">
+					<Child Name="labelRadio" Owner="{EC826798-5008-48EA-8358-ADA4025C6102}">
+						<Child Name="textnode" Owner="{432CA67F-2BF6-4CFE-B41F-81975A90063B}" />
+					</Child>
+				</Child>
+				<Child Name="label2" Owner="{1E89B3E7-F454-41F3-A205-B059218F2E09}">
+					<Child Name="select" Owner="{4E8328E6-F075-426C-9997-1FBDA7497A9F}" />
+				</Child>
+				<Child Name="label3" Owner="{DD1DED3C-5DC8-42DE-8A5A-D0717C5074BC}">
+					<Child Name="select2" Owner="{C891490D-CE10-4FCD-B705-24B99F6F5351}" />
+				</Child>
+				<Child Name="label4" Owner="{2989D280-4A9C-4C06-82D8-A6B0D46AED9C}">
+					<Child Name="textboxInputText" Owner="{70FD1FDE-54E5-49AA-8176-7D6692EF8CA9}" />
+				</Child>
+				<Child Name="labelWbsCcIt" Owner="{87645223-FF65-4232-B887-F69D0080389F}">
+					<Child Name="select3" Owner="{A3F6F2FE-E34A-40AC-B478-7BD8DAFD4967}" />
+				</Child>
+				<Child Name="imageSvgXmlBase64Phn2zyb3awr0ad0" Owner="{62C4E22C-7FAA-4F5B-A45D-61CFF1B9B547}" />
+				<Child Name="panel" Owner="{7390E7C6-515B-4FAF-9F3A-3C7038CC73C1}" />
+				<Child Name="textbox" Owner="{4AB27DCE-19AC-4EAA-B2E5-BE9CAD473C88}" />
+				<Child Name="textnode2" Owner="{2CD9B2FE-5ED7-4D1C-9B83-A20D2F649EA6}">
+					<Child Name="textnode3" Owner="{5EB4C105-0983-4FC1-940C-F80EB4F23DCE}" />
+				</Child>
+				<Child Name="button" Owner="{E6467826-A7CC-4F30-95C2-9436F27A77F8}" />
+				<Child Name="panel102" Owner="{FCAC7E58-7816-42EE-9374-2D91302D96B9}" />
+				<Child Name="panel2" Owner="{DA2164A7-9A5C-4735-BA9C-D901B6A0C226}" />
+				<Child Name="button2" Owner="{A8F76B29-6BF0-4BBF-977F-05FB8D870407}" />
+				<Child Name="panel06100610" Owner="{D694B1D6-19E4-4C80-B3D4-C2B0AAC3722C}" />
+				<Child Name="textnode4" Owner="{FD2A6E96-D331-485A-AAFB-A53CC9E61886}" />
+			</Child>
+			<Child Name="pageHr7" Owner="{5B8EF2D8-BD6F-4243-9E1B-E9DA5AC47511}">
+				<Child Name="button" Owner="{2183B024-0A45-480F-9458-41081BFCE260}" />
+				<Child Name="label" Owner="{CF962538-F3ED-4AC5-81B6-4137E1F974FF}">
+					<Child Name="select" Owner="{0BF3590D-5C6B-4476-BA5B-D580F4AF4B1E}" />
+				</Child>
+				<Child Name="label2" Owner="{1DBF8D7B-8AC2-45A2-9CFD-47834988898A}">
+					<Child Name="select2" Owner="{540F0871-BC17-4B53-A88A-748C8E6C28A5}" />
+				</Child>
+				<Child Name="label3" Owner="{30EF89DD-F270-4F12-8C01-1372D3248739}">
+					<Child Name="textboxInputText" Owner="{8CDB4071-6CAD-4096-813A-ABF9D55C3351}" />
+				</Child>
+				<Child Name="label4" Owner="{F60ACDF0-0867-427A-BB92-8CB2B47D7F3C}">
+					<Child Name="textboxInputText2" Owner="{0DC45C89-533D-481D-96F9-6C379D5A0B22}" />
+				</Child>
+				<Child Name="label5" Owner="{DFA47407-AB07-431C-B293-19DF01DB3254}">
+					<Child Name="label6" Owner="{E4CAB18F-0B01-4976-8BB4-48BE0C334B75}">
+						<Child Name="textnode" Owner="{B590C78F-A566-4114-907B-810B8E899F87}" />
+					</Child>
+				</Child>
+				<Child Name="label7" Owner="{D4849AD3-9B78-4D3D-9092-38F2B7CDDD8A}">
+					<Child Name="button2" Owner="{66510523-455D-4E82-910D-CEEB39EE62CF}" />
+					<Child Name="textboxTextField3" Owner="{9A86AD95-C482-4A20-AA0D-D6C37BF62860}" />
+				</Child>
+				<Child Name="textbox" Owner="{B5EA9EAE-E1A8-46A1-BEFC-7366957A327B}" />
+				<Child Name="textnode2" Owner="{83FD0A69-CAE6-4D19-8D15-31B6592279D7}">
+					<Child Name="textnode3" Owner="{4AE0C72E-AE20-401E-BA8F-99B2ADCEAAE3}">
+						<Child Name="textnode4" Owner="{284B7CA5-8AF5-42CC-9EC5-C35842DCF473}" />
+						<Child Name="textnode5" Owner="{4690A23F-1C9A-4A66-9AEF-9CA3788D19BE}" />
+					</Child>
+				</Child>
+				<Child Name="button3" Owner="{64E354B7-A209-4A5A-BAF7-EC41B74265A2}" />
+				<Child Name="label8" Owner="{5FFB318D-F0CC-4E63-B656-216C1FE1F221}">
+					<Child Name="label9" Owner="{11AF767D-2685-4D55-8DB3-CC9BD0F6DABF}">
+						<Child Name="textnode6" Owner="{4D63168C-CED4-4B11-AF8C-9A2A1F77A148}" />
+					</Child>
+				</Child>
+				<Child Name="label10" Owner="{5133F770-A922-49D2-8BB9-73A6D39619FC}">
+					<Child Name="textarea" Owner="{A12AA3F7-F1D3-43C7-808E-DEDE94B3365D}" />
+				</Child>
+				<Child Name="button4" Owner="{F79AAC43-877D-4201-BB39-25517EF9915A}" />
+				<Child Name="textnodeCertificateOfCareerKorea" Owner="{52E5E0E9-B0E3-4888-9B30-A841AC75449C}" />
+				<Child Name="textnode7" Owner="{F477DDDE-9C41-4BE2-A018-8D6F1F7C7FB9}" />
+				<Child Name="panel" Owner="{F9D7F82B-390B-471A-8E54-96246F6C294C}" />
+				<Child Name="select3" Owner="{E5E456AE-A503-420F-AB6B-AA0E4C616891}" />
+				<Child Name="select4" Owner="{A0407ADF-1B4E-4689-94A8-E7DE973E2196}" />
+			</Child>
+			<Child Name="pageHr8" Owner="{A86858F0-174B-4592-A140-FE4151435B3A}">
+				<Child Name="textnode24" Owner="{A9EEF939-18A0-4209-AE4E-3074F1965BC9}" />
+				<Child Name="label" Owner="{051E1AF2-89EE-42E6-91EA-9AF4F3B80AEC}">
+					<Child Name="select" Owner="{0BA3F6D5-220D-449D-A3E8-889193AC74C3}" />
+				</Child>
+				<Child Name="label2" Owner="{3527CC7D-4756-4B47-8ED3-161A3F0705AD}">
+					<Child Name="select2" Owner="{04F93E49-11F7-4CD3-9682-C2773E27BB01}" />
+				</Child>
+				<Child Name="panelScm" Owner="{7104BBA3-7E73-455A-8970-AA434616B245}" />
+				<Child Name="panelScm2" Owner="{153FE899-64C2-496C-8437-D7663A978152}" />
+				<Child Name="textnodeScm" Owner="{4102F429-11FE-456F-BC7C-00B1166671FC}" />
+				<Child Name="button" Owner="{092A2C6C-4DCA-4F43-AF58-EAC92A346673}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

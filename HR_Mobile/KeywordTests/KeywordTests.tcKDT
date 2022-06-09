@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="근로시간">
+			<child name="WorkingTime" key="{B2815707-6348-41E5-84A1-2B0FF6B1A612}" path="WorkingTime.tcKDTest" />
+		</folder>
+		<folder name="휴가">
+			<child name="Holiday" key="{F0BD26D4-D408-49DD-843F-3C029A014B37}" path="Holiday.tcKDTest" />
+		</folder>
+		<folder name="연장근로">
+			<child name="Overtime_Working" key="{DE1ECCA8-8158-43DF-9369-ADE983302189}" path="Overtime_Working.tcKDTest" />
+		</folder>
+		<folder name="제증명서">
+			<child name="Certificate" key="{5402D6ED-4239-4A80-AD79-ACAD41DDAC94}" path="Certificate.tcKDTest" />
+		</folder>
+		<folder name="휴무신청">
+			<child name="Holiday_Request" key="{09D63C89-E8CD-461C-8E4B-85F7356D8725}" path="Holiday_Request.tcKDTest" />
+		</folder>
+		<folder name="근태등록신청서">
+			<child name="Request" key="{950EF6DF-5EB4-4001-8C87-533D5631A09B}" path="Request.tcKDTest" />
+		</folder>
+		<child name="HR_LogIn" key="{4D7A4BC5-048E-4257-8488-6D0D4804D4D1}" path="HR_LogIn.tcKDTest" />
+	</children>
+</Root>

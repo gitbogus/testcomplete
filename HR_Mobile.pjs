@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{06E15555-0B31-4137-8797-4283DAD2EFB0}">
+	<children>
+		<child name="HR_Mobile" key="{D1C35D49-A713-4CEB-A7AA-AC5BBB467C00}" path="HR_Mobile\HR_Mobile.mds" />
+	</children>
+	<testItems key="{D2B8E73F-EF84-4376-809B-6D0C03C4984D}">
+		<children>
+			<testItem key="{D1C35D49-A713-4CEB-A7AA-AC5BBB467C00}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{E278B8B7-68B3-4A63-960C-A83AAF9EEFA3}" />
+	<analysis key="{3A8334BF-DEF1-44C8-98A6-74958AE7FDD2}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
